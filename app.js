@@ -63,7 +63,7 @@ function loopToChange(classes){
 		console.log(classes[i]);
 	}
 	//Return classes
-	return "My current career" + classes;
+	return "My current career is" + " " + classes[2];
 }
 
 console.log(loopToChange(currentClasses));
@@ -78,8 +78,8 @@ function arrayMethodToLoop(numbers){
 	//Print the parameter that is being passed through the function
 console.log(numbers);
 	//Use the forEach() method to add 5 to each value in the passed array
-	numbers.forEach(function(mouse){
-		console.log(mouse += 5);
+	numbers.forEach(function(randPara){
+		console.log(randPara += 5);
 	}) 
 	//Return the changed array
 	return numbers;
@@ -103,7 +103,7 @@ function moreArrayMethods(priorities){
 	//Use the method pop() to remove the item at the end of the array
 	priorities.pop(6);
 	//Use the method push() to add a priority that is important to the success of this class and don't forget to sort() them afterwards!
-	priorities.push("Kelli and Jeraldy");
+	priorities.push("Study and do your Work");
 	priorities.sort();
 	//Return the changed array
 	return priorities;
